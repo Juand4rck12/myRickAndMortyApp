@@ -4,10 +4,21 @@ body {
     "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("./images/rickAndMorty-wallpaper.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .title {
-  color: #738f93;
+  color: #f7f7f7;
   font-size: 40px;
   font-family: fantasy, sans-serif;
   margin-bottom: 0;
@@ -126,6 +137,7 @@ body {
   text-decoration: underline;
   cursor: pointer;
   font-size: 15px;
+  color: gainsboro;
 }
 
 @media (max-width: 768px) {

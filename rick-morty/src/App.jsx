@@ -15,11 +15,11 @@ function App() {
 
     return (
 		<>
-		<div className="App">
-			<header className="App-header">
+		<div className="app">
+			<header className="app-header">
 				<h1 className="title">Rick & Morty</h1>
 				{characters ? (
-					<Characters characters={characters} />	
+					<Characters characters={characters} setCharacters={setCharacters} />	
 				) : (
 					<>
 					<img src={imageRickMorty} alt="Rick & Morty" className="img-home" />
